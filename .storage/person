@@ -1,0 +1,16 @@
+{
+    "data": {
+        "items": [
+            {
+                "device_trackers": [
+                    "device_tracker.sne_lx1"
+                ],
+                "id": "pasha",
+                "name": "Pasha",
+                "user_id": "8e0b066445ae4afbac348562a30b45fc"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 2
+}

@@ -1,0 +1,53 @@
+{
+    "data": {
+        "binary_sensor": {},
+        "deleted_ids": [],
+        "sensor": {
+            "ed4634d23d63b71868380b0cde35f08afb88ff641dd530ed6d800323bf232ad8_battery_level": {
+                "added": true,
+                "attributes": {},
+                "device_class": "battery",
+                "icon": "mdi:battery-70",
+                "name": "Battery Level",
+                "state": 70,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "ed4634d23d63b71868380b0cde35f08afb88ff641dd530ed6d800323bf232ad8"
+            },
+            "ed4634d23d63b71868380b0cde35f08afb88ff641dd530ed6d800323bf232ad8_battery_state": {
+                "added": true,
+                "attributes": {
+                    "charger_type": "ac",
+                    "is_charging": true
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-charging-70",
+                "name": "Battery State",
+                "state": "charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "ed4634d23d63b71868380b0cde35f08afb88ff641dd530ed6d800323bf232ad8"
+            },
+            "ed4634d23d63b71868380b0cde35f08afb88ff641dd530ed6d800323bf232ad8_wifi_connection": {
+                "added": true,
+                "attributes": {
+                    "bssid": "02:00:00:00:00:00",
+                    "frequency": 2412,
+                    "ip_address": "192.168.1.15",
+                    "is_hidden": true,
+                    "link_speed": 121,
+                    "signal_level": -1
+                },
+                "icon": "mdi:wifi-strength-off",
+                "name": "Wifi Connection",
+                "state": "<not connected>",
+                "type": "sensor",
+                "unique_id": "wifi_connection",
+                "webhook_id": "ed4634d23d63b71868380b0cde35f08afb88ff641dd530ed6d800323bf232ad8"
+            }
+        }
+    },
+    "key": "mobile_app",
+    "version": 1
+}

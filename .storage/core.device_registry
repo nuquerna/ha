@@ -1,0 +1,55 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": "b6287a72105349519ce8e015dd4423a5",
+                "config_entries": [
+                    "6699761689a140ec9b825b923855721c"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:75802409-bccb-40e7-8e6c-40313c0c441b"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "4fbdce781d1b4ce6abcf35b555079d05",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:75802409-bccb-40e7-8e6c-40313c0c441b"
+                    ]
+                ],
+                "manufacturer": "Beijing Xiaomi Technology Co., Ltd.",
+                "model": "Wireless Router",
+                "name": "Xiaomi Mi R3G Wireless Router",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "6c1e2eb5882544cca9ebcf786441b496"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "c007899cca8c470380e3bb1699312842",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "04cfee4db84b3d8f"
+                    ]
+                ],
+                "manufacturer": "HUAWEI",
+                "model": "SNE-LX1",
+                "name": "SNE-LX1",
+                "name_by_user": null,
+                "sw_version": "29",
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

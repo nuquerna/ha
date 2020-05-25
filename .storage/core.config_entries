@@ -1,0 +1,86 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "ad0e7e1a80b44ab5a2a1996a7ca2294d",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                    "udn": "uuid:75802409-bccb-40e7-8e6c-40313c0c441b"
+                },
+                "domain": "upnp",
+                "entry_id": "6699761689a140ec9b825b923855721c",
+                "options": {},
+                "source": "ssdp",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Xiaomi Mi R3G Wireless Router",
+                "unique_id": "uuid:75802409-bccb-40e7-8e6c-40313c0c441b::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "mqtt",
+                "entry_id": "c4f69977482f476f808b26121c8de92a",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "configuration.yaml",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "eDtmDvYzhbE:APA91bHkaX2jpiwUyVYz8MghNadAbJ_i3-8vu3URAiUW50Oq6CeOzxzD4RMtYSzbAdcaoFeUgOYm9-Wt2NcwntMUcF1BNKVAGpqLQaxPr51BPjABoHZz0bmAT2UmWDCJn7hq4WyKTHL4",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.9.0-167 (167)",
+                    "device_id": "04cfee4db84b3d8f",
+                    "device_name": "SNE-LX1",
+                    "manufacturer": "HUAWEI",
+                    "model": "SNE-LX1",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "user_id": "8e0b066445ae4afbac348562a30b45fc",
+                    "webhook_id": "ed4634d23d63b71868380b0cde35f08afb88ff641dd530ed6d800323bf232ad8"
+                },
+                "domain": "mobile_app",
+                "entry_id": "6c1e2eb5882544cca9ebcf786441b496",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "SNE-LX1",
+                "unique_id": "io.homeassistant.companion.android-04cfee4db84b3d8f",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

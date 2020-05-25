@@ -1,0 +1,23 @@
+default_config:
+discovery:
+
+tts:
+  - platform: google_translate
+  
+mqtt:
+    broker: core-mosquitto
+    discovery: true
+    discovery_prefix: homeassistant
+    username: mqtt
+    password: mqtt
+
+timer: !include includes/timer.yaml
+input_boolean: !include includes/input_boolean.yaml
+group: !include includes/groups.yaml
+script: !include includes/scripts.yaml
+scene: !include includes/scenes.yaml
+recorder: !include includes/recorder.yaml
+yeelight: !include includes/yeelight.yaml
+
+sensor: !include_dir_merge_list includes/sensor
+automation: !include_dir_merge_list includes/automation

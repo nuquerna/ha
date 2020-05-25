@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "last_seen": "2020-05-25T19:00:23.692301+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Pasha",
+                    "id": "pasha",
+                    "user_id": "8e0b066445ae4afbac348562a30b45fc"
+                },
+                "context": {
+                    "id": "d941310fd4e3490190aa7d63aa7b9f16",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.pasha",
+                "last_changed": "2020-05-25T06:25:52.335423+00:00",
+                "last_updated": "2020-05-25T06:26:03.440812+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2020-05-25T19:00:23.692301+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "SNE-LX1",
+                    "source_type": "gps"
+                },
+                "context": {
+                    "id": "8e74ee5178ab46ff90e85c114c41b3d5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.sne_lx1",
+                "last_changed": "2020-05-25T11:26:05.966680+00:00",
+                "last_updated": "2020-05-25T11:26:05.966680+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

@@ -1,0 +1,90 @@
+{
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "badges": [
+                        {
+                            "entity": "binary_sensor.updater"
+                        },
+                        {
+                            "entity": "binary_sensor.motion_sensor_158d0002b42244"
+                        },
+                        {
+                            "entity": "binary_sensor.motion_sensor_158d0002b6ffc1"
+                        },
+                        {
+                            "entity": "binary_sensor.switch_158d00022c3770"
+                        },
+                        {
+                            "entity": "binary_sensor.switch_158d00021362d6"
+                        },
+                        {
+                            "entity": "binary_sensor.door_window_sensor_158d0002e6dcdc"
+                        },
+                        {
+                            "entity": "binary_sensor.motion_sensor_158d0002b47464"
+                        },
+                        {
+                            "entity": "person.pasha"
+                        },
+                        {
+                            "entity": "sensor.illumination_158d0002b42244"
+                        },
+                        {
+                            "entity": "sensor.illumination_158d0002b6ffc1"
+                        },
+                        {
+                            "entity": "sensor.illumination_158d0002b47464"
+                        },
+                        {
+                            "entity": "sensor.illumination_04cf8c8fab67"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                "sensor.xiaomi_mi_r3g_wireless_router_b_sent",
+                                "sensor.xiaomi_mi_r3g_wireless_router_packets_received",
+                                "sensor.xiaomi_mi_r3g_wireless_router_packets_sent",
+                                "sensor.xiaomi_mi_r3g_wireless_router_kib_s_received",
+                                "sensor.xiaomi_mi_r3g_wireless_router_kib_s_sent",
+                                "sensor.xiaomi_mi_r3g_wireless_router_packets_s_received",
+                                "sensor.xiaomi_mi_r3g_wireless_router_packets_s_sent",
+                                "sensor.xiaomi_mi_r3g_wireless_router_b_received"
+                            ],
+                            "title": "Corridor",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.gateway_light_04cf8c8fab67"
+                            ],
+                            "title": "Light",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.plug_158d000286657e"
+                            ],
+                            "title": "Switch",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "weather.home",
+                            "type": "weather-forecast"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}
